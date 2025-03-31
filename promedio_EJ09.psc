@@ -1,4 +1,4 @@
-//Cálculo del promedio de un estudiante
+//CÃ¡lculo del promedio de un estudiante
 Algoritmo promedio
 	Definir n1, n2, n3, n4, n5, pro Como Real
 	Escribir "Escriba la primer nota: "
@@ -11,7 +11,7 @@ Algoritmo promedio
 	Leer n4
 	Escribir "Escriba la quinta nota: "
 	Leer n5
-	pro = (n1 + n2 + n3 + n4 + n5) / 5
+	pro = redond((n1 + n2 + n3 + n4 + n5) / 5)
 	Escribir "El promedio es de: " pro
 	
 FinAlgoritmo
